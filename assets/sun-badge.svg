@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Gold sun badge</title>
+  <circle cx="128" cy="128" r="125" fill="#211610"/>
+  <circle cx="128" cy="128" r="117" fill="none" stroke="#ffe4bd" stroke-width="4"/>
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#c18345" stroke-width="1.5"/>
+  <g fill="#f6aa51">
+    <path id="long-ray" d="M112 109 128 31l16 78-16 24Z"/>
+    <use href="#long-ray" transform="rotate(45 128 128)"/>
+    <use href="#long-ray" transform="rotate(90 128 128)"/>
+    <use href="#long-ray" transform="rotate(135 128 128)"/>
+    <use href="#long-ray" transform="rotate(180 128 128)"/>
+    <use href="#long-ray" transform="rotate(225 128 128)"/>
+    <use href="#long-ray" transform="rotate(270 128 128)"/>
+    <use href="#long-ray" transform="rotate(315 128 128)"/>
+  </g>
+  <g fill="#de7e3b">
+    <path id="short-ray" d="M119 110 128 66l9 44-9 22Z" transform="rotate(22.5 128 128)"/>
+    <use href="#short-ray" transform="rotate(45 128 128)"/>
+    <use href="#short-ray" transform="rotate(90 128 128)"/>
+    <use href="#short-ray" transform="rotate(135 128 128)"/>
+    <use href="#short-ray" transform="rotate(180 128 128)"/>
+    <use href="#short-ray" transform="rotate(225 128 128)"/>
+    <use href="#short-ray" transform="rotate(270 128 128)"/>
+    <use href="#short-ray" transform="rotate(315 128 128)"/>
+  </g>
+  <circle cx="128" cy="128" r="22" fill="#f6aa51"/>
+  <circle cx="128" cy="128" r="14" fill="none" stroke="#ffd484" stroke-width="1.5"/>
+</svg>
